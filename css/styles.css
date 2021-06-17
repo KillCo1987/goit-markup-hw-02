@@ -223,3 +223,53 @@
 .footer-address > a:focus {
   color: #fff;
 }
+
+/* = = = = = PORTFOLIO = = = = =  */
+
+.buttons-list-wrapper button {
+  background: #fff;
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
+    0px 2px 2px rgba(0, 0, 0, 0.12);
+  border-radius: 4px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.6;
+  text-align: center;
+  letter-spacing: 0.03em;
+  cursor: pointer;
+}
+
+.projects-list-wrapper h3 {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+  color: #212121;
+}
+
+.projects-list-wrapper p {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 1.87;
+  letter-spacing: 0.03em;
+  color: #757575;
+}
+
+/* = = = = = PORTFOLIO Interactive section = = = = = */
+
+.buttons-list-wrapper button:hover,
+.buttons-list-wrapper button:focus {
+  color: #fff;
+  background-color: var(--interactive-color);
+}
+
+button.current {
+  background-color: var(--interactive-color);
+  color: #fff;
+}
