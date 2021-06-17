@@ -186,7 +186,7 @@
   color: #ffffff;
 }
 
-address > p {
+.footer-address > p {
   font-family: "Roboto", sans-serif;
   font-style: normal;
   font-weight: normal;
@@ -198,7 +198,7 @@ address > p {
   color: #ffffff;
 }
 
-address > a {
+.footer-address > a {
   font-family: "Roboto", sans-serif;
   font-style: normal;
   font-weight: normal;
@@ -224,7 +224,7 @@ address > a {
 
 /* Foorer section*/
 
-address > a:hover,
-address > a:focus {
+.footer-address > a:hover,
+.footer-address > a:focus {
   color: #fff;
 }
