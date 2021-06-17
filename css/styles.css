@@ -1,3 +1,5 @@
+/* = = = = = Others = = = = =*/
+
 :root {
   --interactive-color: #2196f3;
 }
@@ -9,6 +11,8 @@
 .list-stylization {
   list-style-type: none;
 }
+
+/* = = = = = Header = = = = =*/
 
 .header-logo {
   font-family: "Raleway", sans-serif;
@@ -145,8 +149,6 @@
   font-weight: 500;
   font-size: 16px;
   line-height: 1.2px;
-  /* identical to box height */
-
   text-align: center;
   letter-spacing: 0.03em;
 
@@ -159,8 +161,6 @@
   font-weight: normal;
   font-size: 16px;
   line-height: 1.2px;
-  /* identical to box height */
-
   text-align: center;
   letter-spacing: 0.03em;
 
@@ -179,10 +179,7 @@
   font-weight: bold;
   font-size: 26px;
   line-height: 1.2;
-  /* identical to box height */
-
   letter-spacing: 0.03em;
-
   color: #ffffff;
 }
 
@@ -192,9 +189,7 @@
   font-weight: normal;
   font-size: 14px;
   line-height: 1.71;
-
   letter-spacing: 0.03em;
-
   color: #ffffff;
 }
 
@@ -205,13 +200,13 @@
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
-
   color: rgba(255, 255, 255, 0.6);
 }
 
 /* = = = = = Interactive section = = = = = */
 
-/* nav section */
+/* nav interactive section */
+
 .navigator-list-item > a:hover,
 .navigator-list-item > a:focus {
   color: var(--interactive-color);
@@ -222,7 +217,7 @@
   color: var(--interactive-color);
 }
 
-/* Foorer section*/
+/* Footer interactive section*/
 
 .footer-address > a:hover,
 .footer-address > a:focus {
