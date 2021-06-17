@@ -1,3 +1,7 @@
+:root {
+  --interactive-color: #2196f3;
+}
+
 .link {
   text-decoration: none;
 }
@@ -30,7 +34,7 @@
 }
 
 .nav-item.current {
-  color: #2196f3;
+  color: var(--interactive-color);
 }
 
 .nav-item {
@@ -78,7 +82,7 @@
 
   cursor: pointer;
   color: #ffffff;
-  background: #2196f3;
+  background: var(--interactive-color);
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
 }
@@ -211,12 +215,12 @@ address > a {
 /* nav section */
 .navigator-list-item > a:hover,
 .navigator-list-item > a:focus {
-  color: #2196f3;
+  color: var(--interactive-color);
 }
 
 .header-contacts > a:hover,
 .header-contacts > a:focus {
-  color: #2196f3;
+  color: var(--interactive-color);
 }
 
 /* Foorer section*/
